@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layouts/mainLayout">
+<body>
+	<div layout:fragment="mainContent">
+		<div th:replace="main/mainSection1 :: mainSection1"></div>
+		<div th:replace="main/mainSection2 :: mainSection2"></div>
+		<div th:replace="main/mainSection3 :: mainSection3"></div>
+		<div th:replace="main/mainSection4 :: mainSection4"></div>
+		<div th:replace="main/mainSection5 :: mainSection5"></div>
+	</div>
+</body>
+</html>
